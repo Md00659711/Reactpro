@@ -1,14 +1,18 @@
 {
   "name": "vegapro",
   "version": "0.1.0",
+  "homepage": "http://manish.luckprediction.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
+    "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "scss": "^0.2.4",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",

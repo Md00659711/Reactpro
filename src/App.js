@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import 'tachyons';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+
+      <div className="bg-green dib tc ma4 grow shadow-4">
+        
+       <img src="https://joeschmoe.io/api/v1/men" alt="Pro" />
+      <button className="tc green ma4 grow shadow-4 "  > <a href="simple js/tui.image-editor-3.8.0/examplesexample01-includeUi.html"> click more </a> </button >
+     
+    
+      </div>
+   
+    );
+  }
 }
 
 export default App;
